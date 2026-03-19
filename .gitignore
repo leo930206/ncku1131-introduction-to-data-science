@@ -1,13 +1,25 @@
-# 忽略 Python 虛擬環境
-**/.venv/
-**/__pycache__/
+# Compiled Executables and Objects
+*.exe
+*.o
+*.out
+*.class
 
-# 忽略 Jupyter Notebook 暫存
-.ipynb_checkpoints/
+# Logs and Temp files
+*.log
+*.tmp
+tempCodeRunnerFile.*
 
-# 忽略環境設定與編譯檔
-*.pyc
-pyvenv.cfg
+# IDE, Environments and Caches
+cmake-build-debug/
+.idea/
+.vs/
+.vscode/
+__pycache__/
+node_modules/
+.venv/
+venv/
 
+# Secrets
+.env
 *.mkv
 *.mp4
